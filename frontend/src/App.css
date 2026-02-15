@@ -1,0 +1,170 @@
+#root {
+  margin: 0 auto;
+  padding: 0rem;
+  text-align: center;
+}
+
+
+/* Global Styles */
+body {
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Bootstrap Icons Helper */
+/* アイコンの垂直位置と色をテキストに合わせる定義 */
+.bi {
+  display: inline-block;
+  vertical-align: -0.125em;
+  fill: currentColor;
+  color: #6c757d; /* Bootstrap's secondary gray color */
+}
+
+/* Animations */
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Card Hover Effects */
+.hover-card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.hover-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+  background-color: #fff;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* Custom Spacing */
+.card-body {
+  line-height: 1.6;
+}
+
+/* Navbar Customization */
+.navbar-brand {
+  font-size: 1.5rem;
+  letter-spacing: 0.05em;
+}
+
+/* Form Controls */
+.form-control:focus, .form-select:focus {
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+.form-control::placeholder {
+color: #6c757d; /* Bootstrap's secondary gray color */
+opacity: 1; /* Firefox default opacity override */
+}
+
+/* Features Section Responsive Layout */
+.features-container {
+  max-width: 380px;
+}
+
+.feature-item {
+  margin-bottom: 1.5rem; /* mb-4 equivalent */
+}
+
+@media (min-width: 1160px) {
+  .features-container {
+      max-width: 1160px;
+      display: flex;
+      justify-content: space-between;
+      gap: 2rem;
+      margin-top: 8rem !important;
+  }
+
+  .feature-item {
+    margin-bottom: 0;
+    flex: 1; /* 均等に幅を確保 */
+  }
+}
+
+/* Stepper Animations */
+.transition-width {
+  transition: width 0.5s ease-in-out;
+}
+
+.transition-colors {
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+/* Accordion Animation */
+.custom-collapse {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.5s ease-out, opacity 0.5s ease-out;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.custom-collapse.show {
+  grid-template-rows: 1fr;
+  opacity: 1;
+}
+
+.custom-collapse > div {
+  min-height: 0;
+}
+
+.accordion-body {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  transition: 0.5s ease-out, opacity 0.5s ease-out;
+}
+
+.accordion-body.show {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+}
+
+/* Loading Overlay */
+.loading-overlay.startup {
+  position: fixed;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.85),
+    rgba(245, 248, 255, 0.85)
+  );
+  backdrop-filter: blur(3px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1055;
+}
+
+.loading-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  min-width: 240px;
+}
+
+.loading-dots span {
+  animation: blink 1.4s infinite both;
+}
+
+.loading-dots span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.loading-dots span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes blink {
+  0% { opacity: 0.2; }
+  20% { opacity: 1; }
+  100% { opacity: 0.2; }
+}

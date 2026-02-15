@@ -1,0 +1,70 @@
+{
+  "targets": [
+    {
+      "municipality_id": "tokyo",
+      "municipality_name": "東京都",
+      "domains": ["moving", "childcare"],
+      "search_municipality_ids": ["tokyo"]
+    },
+    {
+      "municipality_id": "tokyo-chiyoda",
+      "municipality_name": "千代田区",
+      "domains": ["moving", "childcare"],
+      "search_municipality_ids": ["tokyo-chiyoda"]
+    },
+    {
+      "municipality_id": "tokyo-minato",
+      "municipality_name": "港区",
+      "domains": ["moving", "childcare"],
+      "search_municipality_ids": ["tokyo-minato"]
+    },
+    {
+      "municipality_id": "tokyo-chuo",
+      "municipality_name": "中央区",
+      "domains": ["moving", "childcare"],
+      "search_municipality_ids": ["tokyo-chuo"]
+    },
+    {
+      "municipality_id": "tokyo-setagaya",
+      "municipality_name": "世田谷区",
+      "domains": ["moving", "childcare"],
+      "search_municipality_ids": ["tokyo-setagaya"]
+    },
+    {
+      "municipality_id": "tokyo-koto",
+      "municipality_name": "江東区",
+      "domains": ["moving", "childcare"],
+      "search_municipality_ids": ["tokyo-koto"]
+    },
+    {
+      "municipality_id": "tokyo-itabashi",
+      "municipality_name": "板橋区",
+      "domains": ["moving", "childcare"],
+      "search_municipality_ids": ["tokyo-itabashi"]
+    },
+    {
+      "municipality_id": "kanagawa",
+      "municipality_name": "神奈川県",
+      "domains": ["moving", "childcare"],
+      "search_municipality_ids": ["kanagawa"]
+    },
+    {
+      "municipality_id": "kanagawa-yokohama",
+      "municipality_name": "横浜市",
+      "domains": ["moving", "childcare"],
+      "search_municipality_ids": ["kanagawa-yokohama"]
+    },
+    {
+      "municipality_id": "saitama",
+      "municipality_name": "埼玉県",
+      "domains": ["moving", "childcare"],
+      "search_municipality_ids": ["saitama"]
+    },
+    {
+      "municipality_id": "saitama-saitama",
+      "municipality_name": "さいたま市",
+      "domains": ["moving", "childcare"],
+      "search_municipality_ids": ["saitama-saitama"]
+    }
+  ]
+}
