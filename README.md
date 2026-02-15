@@ -1,5 +1,5 @@
 # 0. デモ動画
-[![YouTube埋込み](docs/materials/thumbnail.png)](https://www.canva.com/design/DAG9-85u2M4/ufNpSprwiFPt8S3pffvfyQ/watch?utm_content=DAG9-85u2M4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=haf78e1dd05)
+[![YouTube埋込み](docs/materials/thumbnail.png)](https://www.youtube.com/watch?v=yCQEqbYB8Ac)
 <br><br>
 
 # 1. 背景・課題
